@@ -4,12 +4,14 @@
     border: none;
     background-color: #391303;
     color: white;
-    padding: 0.75rem 3rem;
+    padding: 0.75rem 2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-radius: 25px;
     font-weight: bold;
+    margin: 0.3rem 0.8rem;
+    
   }
   
   .button:hover,
@@ -18,16 +20,16 @@
   }
   
   .icon {
-    width: 1.35rem;
-    height: 1.35rem;
-    margin-right: 0.5rem;
+    width: 1.45rem;
+    height: 1.45rem;
+    margin-right: 0.1rem;
   }
   
   .badge {
     background-color: #b94517;
     padding: 0.25rem 1rem;
     border-radius: 25px;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     font-weight: bold;
   }
   
