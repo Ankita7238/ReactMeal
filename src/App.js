@@ -1,12 +1,16 @@
 import Header from "./components/Layout/Header.js"
 import MealsContainer from "./components/Meals/MealsContainer.js";
+import Cart from "./components/Cart/Cart.js";
 
 function App() {
-  return (
-    <div className="App">
-      <Header/>
-      <MealsContainer/>
-    </div>
+  return (  
+        <>
+        <Cart />
+        <Header />
+        <main>
+          <MealsContainer/>
+        </main>
+        </>
   );
 }
 
