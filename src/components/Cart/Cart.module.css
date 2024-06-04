@@ -1,16 +1,28 @@
 .cart-items {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 1rem;
+  }
+  .cartlist{
+    font-weight:bold;
+    color:black;
+    font-size:1.1rem;
+    line-height:1.6rem;
   }
   
-  .total {
+  .total{
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
     font-size: 1.5rem;
     margin: 1rem 0;
+
+  }
+  .total span{
+    background-color: white;
+    color:#8a2b06;
+    border-color:white;
   }
   
   .actions {
