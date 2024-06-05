@@ -1,29 +1,28 @@
 .form {
-    text-align: right;
-  }
-  
-  .form button, span {
-    font: inherit;
-    cursor: pointer;
-    background-color: #8a2b06;
-    border: 1px solid #8a2b06;
-    color: white;
-    padding: 0.25rem 0.8rem;
-    font-weight: bold;
-  }
+  text-align: right;
+}
 
-  .left{
-    border-radius: 20px 0px 0px 20px;
+.form button, .addtext {
+  font: inherit;
+  cursor: pointer;
+  background-color: #8a2b06;
+  border: 1px solid #8a2b06;
+  color: white;
+  padding: 0.25rem 0.8rem;
+  font-weight: bold;
+}
 
-  }
-  .right{
-    border-radius: 0px 20px 20px 0px;
-  }
-  
-  .form button:hover,
-  .form button:active {
-    background-color: #641e03;
-    border-color: #641e03;
-  }
-  
-  
+
+.form button:hover,
+.form button:active {
+  background-color: #641e03;
+  border-color: #641e03;
+}
+.left{
+  border-radius: 20px 0px 0px 20px;
+
+}
+.right{
+  border-radius: 0px 20px 20px 0px;
+}
+
